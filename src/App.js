@@ -11,7 +11,7 @@ class App extends Component  {
       {name: 'Mazda', year: 2010}
     ],
     pageTitle: 'React components',
-    showCars: false
+    showCars: true
   }
 
   toggleCarsHandler = () => {
@@ -64,7 +64,12 @@ class App extends Component  {
         >Toggle cars
         </button>
 
-        { cars }
+        <div className="car-list">
+          { cars }
+        </div>
+          
+        
+        
 
       </div>        
     )
