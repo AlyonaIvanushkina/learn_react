@@ -1,0 +1,20 @@
+.car-list {
+    width: 400px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.app-button {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    &:focus, &:active {
+        outline: none;
+    }
+    
+    &:hover {
+        background: #f0fff0;
+    }
+}
